@@ -10,12 +10,12 @@ class WordList() {
 
 
     fun initializeWords() {
-        val word = Word("Hello", "Hej")
+        val word = Word(0,"Hello", "Hej")
         wordList.add(word)
-        wordList.add(Word("Good bye", "Hej då"))
-        wordList.add(Word("Thank you", "Tack"))
-        wordList.add(Word("Welcome", "Välkommen"))
-        wordList.add(Word("Computer", "Dator"))
+        wordList.add(Word(1,"Good bye", "Hej då"))
+        wordList.add(Word(2,"Thank you", "Tack"))
+        wordList.add(Word(3,"Welcome", "Välkommen"))
+        wordList.add(Word(4,"Computer", "Dator"))
 
     }
 
@@ -55,10 +55,7 @@ class WordList() {
         return word
     }
 
-    // 1. en till lista med redan använda ord
-    // 2. lista med index på använda ord
-    // 3. använt ord tas bort från listan
-    // 4. ordet håller reda på om det redan är använt
+
 
 }
 
